@@ -58,7 +58,7 @@ class  MyProjectSlot extends HTMLElement {
  // Apply external styles to the shadow dom
     const linkElem = document.createElement("link");
     linkElem.setAttribute("rel", "stylesheet");
-    linkElem.setAttribute("href", "Resources/Style.css" );
+    linkElem.setAttribute("href", "Style.css" );
 
     shadow.appendChild(linkElem);
     shadow.appendChild(gridwrapper);
