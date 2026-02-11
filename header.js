@@ -90,12 +90,12 @@ class  MyHeader extends HTMLElement {
     cvlink.textContent = "CV";
     cvlink.setAttribute("class", "headerlink");
 
-    const linkdividerone = document.createElement("span");
-    linkdividerone.setAttribute("class", "headerlink");
-    linkdividerone.textContent = " | ";
-    const linkdividertwo = document.createElement("span");
-    linkdividertwo.setAttribute("class", "headerlink");
-    linkdividertwo.textContent = " | ";
+    const linkdividerone = document.createElement("bdi");
+    linkdividerone.setAttribute("class", "h1");
+    linkdividerone.textContent = "  | ";
+    const linkdividertwo = document.createElement("bdi");
+    linkdividertwo.setAttribute("class", "h1");
+    linkdividertwo.textContent = "  | ";
 
  // Apply external styles to the shadow dom
     const linkElem = document.createElement("link");

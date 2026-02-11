@@ -3,6 +3,12 @@ body {
     background-color: #8ba39d;
 }
 
+bdi {
+	font-size: 24px;
+	color: white;
+	text-align: center;
+}
+
 h1 {
 	font-size: 32px;
 	color: white;
@@ -114,15 +120,14 @@ a:active {
 
 
 .headerlink{
-  color: #d3d3d3;
+  color: #ffffff;
   text-decoration: none;
   font-size: 24px;
-  margin-left: 15px;
   margin-bottom: 0px;
 }
 
 .headerlink:link {
-  color: #d3d3d3;
+  color: #ffffff;
   text-decoration: none;
 
 }
