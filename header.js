@@ -21,7 +21,7 @@ class  MyHeader extends HTMLElement {
     const breakdiv = document.createElement("br");
 
     const linkedinHyperlink = document.createElement("a");
-    linkedinHyperlink.setAttribute("href", "www.linkedin.com/in/alexandra-speranskaya-48758a198");
+    linkedinHyperlink.setAttribute("href", "https://www.linkedin.com/in/alexandra-speranskaya-48758a198");
 
     const githubHyperlink = document.createElement("a");
     githubHyperlink.setAttribute("href", "https://github.com/AlexandraSperanskaya");
